@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+}
+html {
+   scroll-behavior: smooth;
+   text-decoration: none;
+}
+body {
+  /*background: #262827; */
+  /* background-image: url("img/code.jpg");
+  background-size: cover; */
+  /* 'Press Start 2P', cursive; */
+  font-family: 'Fjalla One', sans-serif;
+  margin: 0;
+  text-decoration: none;
+  display: block;
+
+}
+header {
+  /* box-shadow: 1px 3px 20px rgba(1,1,1,1); */
+  background: white;
+  height: 85px;
+  box-shadow: 1px 3px 100px #0000;
+  font-size: 25px;
+  position: fixed;
+  width: 100%;
+
+}
+
+/* clear fix class, to the text so it dont bug */
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+  position: fixed;
+
+}
+nav {
+  float: right;
+  color: black;
+
+}
+nav.black {
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 20px;
+
+}
+nav ul li a {
+  color: #575757;
+  text-decoration: none;
+  font-family: 'Fjalla One', sans-serif;
+  left: 100px;
+
+}
+nav ul li a:hover {
+  color: rgb(41, 171, 226);
+
+}
+.button_container {
+  width: 100px;
+  height: 45px;
+  padding: 0;
+  margin: 0;
+  font-size: 26px;
+  font-family: 'Fjalla One', sans-serif;
+  border-radius: 25px;
+  background-color: rgb(41, 171, 226);
+  color: #575757;
+  border: none;
+
+}
+.button_container:hover {
+  background-color: white;
+  transition: 0.5s;
+
+}
+.container {
+  width: 80%;
+  margin: 0 auto
+
+}
+.logo {
+  float: left;
+  padding: 9px;
+  width: 79px;
+  height: 60px;
+  margin-left: 100px;
+
+}
+
+
+
+/* part 1 middle intro */
+
+
+
+.beginning {
+  font-family:'Fjalla One', sans-serif;
+  padding: 50px;
+  height: 600px;
+  background-image: url("img/back.jpg");
+  background-size: cover;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  padding-top: 100px;
+  /* text-shadow: 1px 2px 4px #404040; */
+
+}
+.logo2 {
+  padding: 10px;
+  width: 100px;
+  height: 80px;
+  margin-left: auto;
+
+}
+.intro  {
+  text-align: center;
+  color: rgb(41, 171, 226);
+  padding: 50px;
+  font-size: 30px;
+
+}
+.Button1 {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: auto;
+
+}
+.button_to {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  font-size: 25px;
+  font-family: 'Fjalla One', sans-serif;
+  border-radius: 25px;
+  background-color: white;
+  color: #575757;
+  border: none;
+
+}
+.button_to:hover {
+  background-color: rgb(41, 171, 226);
+  color: white;
+  transition: 0.5s;
+
+}
+
+
+
+/* part 2 / end of intro part & about the app */
+
+/* part 3 / end of about app & about us */
+
+
+.about {
+  font-family: 'Fjalla One', sans-serif;
+  padding: 70px;
+  height: 800px;
+  background-color: white;
+  text-align: center;
+
+}
+.about_text {
+  font-size: 80px;
+  text-align: center;
+
+}
+.idk {
+  color: #575757;
+  font-size: 25px;
+
+}
+
+  /* first box */
+
+.first_box {
+  width: 350px;
+  float: left;
+  background: rgb(41, 171, 226);
+  height: 450px;
+  margin: 50px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  transition:  all 0.3s ease-in-out;
+
+}
+.first_box:hover {
+  box-shadow: 1px 2px 50px #1a1a1a;
+  transition: 0.3s;
+  transform: scale(1.05, 1.05);
+
+}
+.first_imge_all {
+  background-image: url("img/app.jpeg");
+  background-size: cover;
+  height: 150px;
+  border-radius: 25px;
+  border: none;
+
+}
+.first_imge_all a {
+  text-decoration: none;
+  display: inline-block;
+
+}
+.button_about_creators {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    border-radius: 25px;
+    background-color: white;
+    color: #575757;
+    border: none;
+    background-color: white;
+
+}
+.button_about_creators:hover {
+    background-color: rgb(41, 171, 226);
+    color: white;
+    transition: 0.5s;
+
+}
+.first_box p {
+  color: white;
+  padding-left: 80px;
+  padding-top: 60px;
+  margin-right: 90px;
+  display: inline-block;
+
+}
+.p_about1 {
+  text-decoration: none;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+
+}
+.p_about2 {
+  text-decoration: none;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+
+}
+  /* seond box */
+
+.second_box {
+  width: 350px;
+  height: 450px;
+  float: right;
+  background: rgb(41, 171, 226);
+  margin: 50px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  transition:  all 0.3s ease-in-out;
+
+}
+.second_box:hover {
+  box-shadow: 1px 2px 50px #1a1a1a;
+  transition: 0.3s;
+  transform: scale(1.05, 1.05);
+
+}
+.second_imge_all {
+  background-image: url("img/app2.jpeg");
+  background-size: cover;
+  height: 150px;
+  border-radius: 25px;
+  border: none;
+
+}
+.second_imge_all a {
+  text-decoration: none;
+  display: inline-block;
+
+}
+.button_about_app {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+  font-family: 'Fjalla One', sans-serif;
+  border-radius: 25px;
+  background-color: white;
+  color: #575757;
+  border: none;
+  background-color: white;
+
+}
+.button_about_app:hover {
+    background-color: rgb(41, 171, 226);
+    color: white;
+    transition: 0.5s;
+
+}
+.second_box p {
+  color: white;
+  padding-left: 110px;
+  padding-top: 30px;
+  margin-right: 100px;
+  display: inline-block;
+  text-decoration: none;
+
+}
+.p_about3 {
+  text-decoration: none;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+
+}
+.p_about4 {
+
+  text-decoration: none;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+
+}
+
+   /* border-top:thin solid;
+  border-bottom:thin solid;
+  border-left:thin solid;
+  border-right:thin solid;
+  border-color:black;
+  padding: 5px; */
+
+
+
+/* part 4 end of about/middle part & beginning of
+download/ footer ending */
+
+
+
+.download_page {
+  padding: 50px;
+  height: 550px;
+  background-color: #575757;;
+  font-size: 60px;
+  color: white;
+  background-image: url("img/download.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.p2 {
+  text-align: center;
+  font-size: 80px;
+
+}
+.p3 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(41, 171, 226);
+}
+.Button2 {
+  text-decoration: none;
+
+}
+.button_one {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: 'Fjalla One', sans-serif;
+  border-radius: 25px;
+  background-color: white;
+  color: #575757;
+  border: none;
+
+}
+.button_one:hover {
+  background-color: rgb(41, 171, 226);
+  transition: 0.5s;
+
+}
+.back_top {
+  display: block;
+  margin-left: 532px;
+  height: 200px;
+  width: 400px;
+  margin-top: 50px;
+  font-size: 15px;
+  font-family: 'Fjalla One', sans-serif;
+  border-radius: 25px;
+  background-color: white;
+  color: #575757;
+  border: none;
+  margin-top: 130px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+.back_top:hover {
+  box-shadow: 0px 1px 20px #1a1a1a;
+  transition: 0.3s;
+  transform: scale(1.2, 1.2);
+  background-color: rgb(41, 171, 226);
+}
+.imgxd {
+  background-size: cover;
+
+}
+.img_up {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 270px;
+  height: 50px;
+  width: 50px;
+
+}
+.contact {
+  height: 100px;
+  background-color: white;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-left: 50px;
+  color: #666666;
+  text-decoration: none;
+
+}
+.contact:hover {
+  color: rgb(41, 171, 226);
+  color: #666666;
+
+}
+.href_contact {
+  color: #404040;
+
+}
+.contact2 {
+ margin: 0;
+ margin-bottom: 20px;
+ font-size: 15px;
+ text-align: center;
+ text-decoration: none;
+ color: #666666;
+
+}
+
+/* written by erwin/aTq, NO copyright allowed! */

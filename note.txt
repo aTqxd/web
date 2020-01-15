@@ -1,0 +1,5 @@
+      <footer class="bottom">
+      <div class="end">
+        <p>THIS IS THE END</p>
+      </div>
+    </footer>
